@@ -1,0 +1,19 @@
+Inference for the input samples (4 chains: each with iter = 10001; warmup = 5000):
+
+                     Q5   Q50   Q95  Mean    SD  Rhat Bulk_ESS Tail_ESS
+km_d15g.1.        0.238 0.252 0.266 0.252 0.008 1.002      928     2048
+km_d3g.1.         0.105 0.113 0.123 0.114 0.006 1.015      430      951
+ku_d15g.1.        0.508 0.574 0.649 0.575 0.044 1.002     1016     2075
+ku_d3g.1.         0.175 0.197 0.222 0.198 0.014 1.014      418      936
+ke_don.1.         0.100 0.101 0.103 0.101 0.001 1.003     1655     1473
+kbile_d15g.1.     0.101 0.107 0.128 0.109 0.009 1.002     1676     1985
+kbile_d3g.1.      0.100 0.103 0.112 0.104 0.004 1.003     1456     1157
+kgut_liv_d3g.1.   0.734 3.565 8.992 4.065 2.603 1.007      875     2907
+kgut_liv_d15g.1.  1.549 5.484 9.546 5.522 2.537 1.001     1383     5041
+kgut_elim_d3g.1.  0.113 0.339 2.336 0.662 0.868 1.003      860     1254
+kgut_elim_d15g.1. 0.107 0.227 1.125 0.371 0.391 1.002     1191     1283
+
+For each parameter, Bulk_ESS and Tail_ESS are crude measures of 
+effective sample size for bulk and tail quantities respectively (an ESS > 100 
+per chain is considered good), and Rhat is the potential scale reduction 
+factor on rank normalized split chains (at convergence, Rhat <= 1.05).

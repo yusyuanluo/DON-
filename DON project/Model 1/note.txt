@@ -1,0 +1,2 @@
+##simulation 1 : fit the d15g excreted data
+##simulation 2: fit the don, d3g, and d15g excreted data

@@ -1,0 +1,20 @@
+#donpbtk1cptumbdon.in -----in vivo kelim only acconts for 2 metabolites_D15GA&D3GA
+
+IngDose    = 236.33;    # ingested dose (mmol)
+BW         = 70;      # body weight (kg)
+Fgutabs    = 0.56;    # bioavailability (-) 
+kgutabs    = 0.09;    # absortion rate (/h)
+Vdist      = 86.8;    # volumes (L)
+km_d15g    = 1.25;    #metabolic rate constant (nmol/h)
+km_d3g     = 0.40;    #metabolic rate constant (nmol/h)
+ku_d15g    = 2.31;    #Excretion rate constant (nmol/h)
+ku_d3g     = 1.10;    #Excretion rate constant (nmol/h)
+ke_don     = 1.90;    #Excretion rate constant (nmol/h)
+kbile_1    = 3.50;     #Biliary excretion Rate constant DON-15G(nmol/h)
+kbile_2    = 2.50;     #Biliary excretion Rate constant DON-3G(nmol/h)
+
+Simulation {
+ 
+  PrintStep( PctExRate_don, 0, 24, 0.5);
+}
+End.
